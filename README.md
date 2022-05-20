@@ -2,7 +2,7 @@
 
 An academic project for Cloud Computing (CS-GY-9233) at NYU Tandon with Prof Sambit Sahu.
 
-NYU Course Buddy is a web-app designed to help NYU students in the course registration process.
+NYU Course Buddy is a serverless web-app cum platform designed to help NYU students in the course registration process.
 
 ## Project Description and Motivation:
 
@@ -40,13 +40,17 @@ For design and prototype using Figma [click here](https://www.figma.com/proto/mX
 2. Hosting on S3
 3. User Authentication and Security using Cognito and IAM
 4. APIs on API Gateway
-5. Backed for APIs on Lambda
-6. Databases: RDS 
-7. Indexing ElasticSearch
+5. Backend for APIs on Lambda
+6. Master Databases: RDS 
+7. Indexing on ElasticSearch
 8. Chatbot on Lex
-9. Notifications using SES
-10. Polling with EventBridge + Lambda 
+9. Notifications Emails using SES
+10. Notification server on EventBridge + Lambda 
 11. Queue user notifications with SQS
+
+![notif_service](https://user-images.githubusercontent.com/26039974/169601631-a9d46fbf-b1bb-4d0f-82d4-0ed085c641bc.PNG)
+
+![chatbot_service](https://user-images.githubusercontent.com/26039974/169601650-c87ed5e0-3f66-4716-b588-3ce3a60c5d42.PNG)
 
 ## Contributors:
 
